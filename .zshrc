@@ -9,7 +9,8 @@ export EDITOR="$VISUAL"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="jovial"
+ZSH_THEME="spaceship"
+#ZSH_THEME="jovial"
 
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
@@ -33,7 +34,5 @@ if [ -f /home/$USER/.zsh/functions.sh ]; then
 	. /home/$USER/.zsh/functions.sh
 fi
 
-# source /home/darkrift/.oh-my-zsh/plugins/autojump/autojump.plugin.zsh
-source /home/darkrift/.oh-my-zsh/custom/plugins/autojump/bin/autojump.zsh
-
 clear
+source /home/darkrift/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
