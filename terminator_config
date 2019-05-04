@@ -1,0 +1,865 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_image = None
+  [[workview]]
+    background_image = None
+  [[work_view]]
+    background_color = "#46575e"
+    background_image = None
+    background_type = transparent
+    background_darkness = 0.91
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[workview1]]
+    [[[child0]]]
+      position = 68:24
+      type = Window
+      order = 0
+      parent = ""
+      size = 1850, 1005
+    [[[child1]]]
+      position = 500
+      type = VPaned
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 460
+      type = HPaned
+      order = 0
+      parent = child1
+    [[[child5]]]
+      position = 468
+      type = HPaned
+      order = 1
+      parent = child1
+    [[[child6]]]
+      position = 248
+      type = VPaned
+      order = 0
+      parent = child5
+    [[[terminal3]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal4]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child2
+    [[[terminal7]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child6
+    [[[terminal9]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child5
+    [[[terminal8]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child6
+  [[ok]]
+    [[[terminal5]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child3
+    [[[terminal4]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child3
+    [[[terminal9]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child7
+    [[[terminal8]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child7
+    [[[child12]]]
+      position = 350
+      type = HPaned
+      order = 0
+      parent = child11
+    [[[child11]]]
+      position = 530
+      type = VPaned
+      order = 1
+      parent = child1
+    [[[child16]]]
+      position = 293
+      type = VPaned
+      order = 0
+      parent = child15
+    [[[child15]]]
+      position = 353
+      type = HPaned
+      order = 1
+      parent = child11
+    [[[terminal10]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child6
+    [[[terminal13]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child12
+    [[[terminal14]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child12
+    [[[terminal17]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child16
+    [[[terminal19]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child15
+    [[[terminal18]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child16
+    [[[child0]]]
+      position = 65:24
+      type = Window
+      order = 0
+      parent = ""
+      size = 1855, 1056
+    [[[child1]]]
+      labels = None, None, None
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 517
+      type = VPaned
+      order = 0
+      parent = child1
+    [[[child3]]]
+      position = 366
+      type = HPaned
+      order = 0
+      parent = child2
+    [[[child6]]]
+      position = 362
+      type = HPaned
+      order = 1
+      parent = child2
+    [[[child7]]]
+      position = 253
+      type = VPaned
+      order = 0
+      parent = child6
+    [[[terminal24]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child22
+    [[[terminal25]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child21
+    [[[terminal26]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child20
+    [[[terminal23]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child22
+    [[[child22]]]
+      position = 781
+      type = HPaned
+      order = 0
+      parent = child21
+    [[[child21]]]
+      position = 511
+      type = VPaned
+      order = 0
+      parent = child20
+    [[[child20]]]
+      position = 1564
+      type = HPaned
+      order = 2
+      parent = child1
+  [[view_0]]
+    [[[child49]]]
+      position = 475
+      type = HPaned
+      order = 0
+      parent = child48
+    [[[terminal51]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child49
+    [[[terminal50]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child49
+    [[[child56]]]
+      position = 517
+      type = VPaned
+      order = 6
+      parent = child1
+    [[[terminal4]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child3
+    [[[terminal7]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child5
+    [[[terminal6]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child5
+    [[[terminal9]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child8
+    [[[terminal52]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child48
+    [[[child12]]]
+      position = 936
+      type = HPaned
+      order = 0
+      parent = child11
+    [[[child11]]]
+      position = 517
+      type = VPaned
+      order = 1
+      parent = child1
+    [[[child47]]]
+      position = 517
+      type = VPaned
+      order = 5
+      parent = child1
+    [[[child17]]]
+      position = 936
+      type = HPaned
+      order = 1
+      parent = child11
+    [[[child14]]]
+      position = 464
+      type = HPaned
+      order = 1
+      parent = child12
+    [[[child39]]]
+      position = 517
+      type = VPaned
+      order = 0
+      parent = child38
+    [[[terminal33]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child32
+    [[[child53]]]
+      position = 936
+      type = HPaned
+      order = 1
+      parent = child47
+    [[[terminal31]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child30
+    [[[terminal37]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child35
+    [[[terminal36]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child35
+    [[[terminal34]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child32
+    [[[child38]]]
+      position = 936
+      type = HPaned
+      order = 4
+      parent = child1
+    [[[terminal10]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child8
+    [[[terminal13]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child12
+    [[[child42]]]
+      position = 517
+      type = VPaned
+      order = 1
+      parent = child38
+    [[[terminal15]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child14
+    [[[child58]]]
+      position = 475
+      type = HPaned
+      order = 0
+      parent = child57
+    [[[terminal16]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child14
+    [[[terminal19]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child17
+    [[[terminal18]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child17
+    [[[child32]]]
+      position = 464
+      type = HPaned
+      order = 1
+      parent = child30
+    [[[child35]]]
+      position = 936
+      type = HPaned
+      order = 1
+      parent = child29
+    [[[child0]]]
+      position = 65:24
+      type = Window
+      order = 0
+      parent = ""
+      size = 1855, 1056
+    [[[child1]]]
+      labels = None, None, talha@bossanova: ~, None, None, None, None
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 517
+      type = VPaned
+      order = 0
+      parent = child1
+    [[[child3]]]
+      position = 936
+      type = HPaned
+      order = 0
+      parent = child2
+    [[[child5]]]
+      position = 464
+      type = HPaned
+      order = 1
+      parent = child3
+    [[[child8]]]
+      position = 936
+      type = HPaned
+      order = 1
+      parent = child2
+    [[[child43]]]
+      position = 464
+      type = HPaned
+      order = 0
+      parent = child42
+    [[[child30]]]
+      position = 936
+      type = HPaned
+      order = 0
+      parent = child29
+    [[[child57]]]
+      position = 936
+      type = HPaned
+      order = 0
+      parent = child56
+    [[[terminal59]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child58
+    [[[terminal60]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child58
+    [[[terminal61]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child57
+    [[[terminal63]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child62
+    [[[terminal64]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child62
+    [[[terminal46]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child42
+    [[[terminal44]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child43
+    [[[terminal45]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child43
+    [[[terminal40]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child39
+    [[[terminal41]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child39
+    [[[terminal24]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child23
+    [[[terminal25]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child23
+    [[[child29]]]
+      position = 517
+      type = VPaned
+      order = 3
+      parent = child1
+    [[[terminal27]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child26
+    [[[child62]]]
+      position = 936
+      type = HPaned
+      order = 1
+      parent = child56
+    [[[terminal22]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child21
+    [[[terminal54]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child53
+    [[[child23]]]
+      position = 464
+      type = HPaned
+      order = 1
+      parent = child21
+    [[[child48]]]
+      position = 936
+      type = HPaned
+      order = 0
+      parent = child47
+    [[[child21]]]
+      position = 936
+      type = HPaned
+      order = 0
+      parent = child20
+    [[[child20]]]
+      position = 517
+      type = VPaned
+      order = 2
+      parent = child1
+    [[[terminal28]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child26
+    [[[child26]]]
+      position = 936
+      type = HPaned
+      order = 1
+      parent = child20
+    [[[terminal55]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child53
+  [[view_1]]
+    [[[child49]]]
+      position = 308
+      type = HPaned
+      order = 0
+      parent = child48
+    [[[terminal51]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child49
+    [[[terminal50]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child49
+    [[[child56]]]
+      position = 581
+      type = VPaned
+      order = 6
+      parent = child1
+    [[[terminal4]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child3
+    [[[terminal7]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child5
+    [[[terminal6]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child5
+    [[[terminal9]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child8
+    [[[terminal52]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child48
+    [[[child12]]]
+      position = 354
+      type = HPaned
+      order = 0
+      parent = child11
+    [[[child11]]]
+      position = 517
+      type = VPaned
+      order = 1
+      parent = child1
+    [[[child47]]]
+      position = 535
+      type = VPaned
+      order = 5
+      parent = child1
+    [[[child17]]]
+      position = 360
+      type = HPaned
+      order = 1
+      parent = child11
+    [[[child14]]]
+      position = 334
+      type = HPaned
+      order = 1
+      parent = child12
+    [[[child39]]]
+      position = 511
+      type = VPaned
+      order = 0
+      parent = child38
+    [[[terminal33]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child32
+    [[[child53]]]
+      position = 309
+      type = HPaned
+      order = 1
+      parent = child47
+    [[[terminal31]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child30
+    [[[terminal37]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child35
+    [[[terminal36]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child35
+    [[[terminal34]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child32
+    [[[child38]]]
+      position = 435
+      type = HPaned
+      order = 4
+      parent = child1
+    [[[terminal10]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child8
+    [[[terminal13]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child12
+    [[[child42]]]
+      position = 511
+      type = VPaned
+      order = 1
+      parent = child38
+    [[[terminal15]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child14
+    [[[child58]]]
+      position = 304
+      type = HPaned
+      order = 0
+      parent = child57
+    [[[terminal16]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child14
+    [[[terminal19]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child17
+    [[[terminal18]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child17
+    [[[child32]]]
+      position = 416
+      type = HPaned
+      order = 1
+      parent = child30
+    [[[child35]]]
+      position = 388
+      type = HPaned
+      order = 1
+      parent = child29
+    [[[child0]]]
+      position = 65:24
+      type = Window
+      order = 0
+      parent = ""
+      size = 1855, 1056
+    [[[child1]]]
+      labels = None, None, talha@bossanova: ~, None, None, None, None
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 517
+      type = VPaned
+      order = 0
+      parent = child1
+    [[[child3]]]
+      position = 357
+      type = HPaned
+      order = 0
+      parent = child2
+    [[[child5]]]
+      position = 326
+      type = HPaned
+      order = 1
+      parent = child3
+    [[[child8]]]
+      position = 357
+      type = HPaned
+      order = 1
+      parent = child2
+    [[[child43]]]
+      position = 483
+      type = HPaned
+      order = 0
+      parent = child42
+    [[[child30]]]
+      position = 387
+      type = HPaned
+      order = 0
+      parent = child29
+    [[[child57]]]
+      position = 698
+      type = HPaned
+      order = 0
+      parent = child56
+    [[[terminal59]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child58
+    [[[terminal60]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child58
+    [[[terminal61]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child57
+    [[[terminal63]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child62
+    [[[terminal64]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child62
+    [[[terminal46]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child42
+    [[[terminal44]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child43
+    [[[terminal45]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child43
+    [[[terminal40]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child39
+    [[[terminal41]]]
+      profile = workview
+      type = Terminal
+      order = 1
+      parent = child39
+    [[[terminal24]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child23
+    [[[terminal25]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child23
+    [[[child29]]]
+      position = 571
+      type = VPaned
+      order = 3
+      parent = child1
+    [[[terminal27]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child26
+    [[[child62]]]
+      position = 302
+      type = HPaned
+      order = 1
+      parent = child56
+    [[[terminal22]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child21
+    [[[terminal54]]]
+      profile = work_view
+      type = Terminal
+      order = 0
+      parent = child53
+    [[[child23]]]
+      position = 342
+      type = HPaned
+      order = 1
+      parent = child21
+    [[[child48]]]
+      position = 682
+      type = HPaned
+      order = 0
+      parent = child47
+    [[[child21]]]
+      position = 347
+      type = HPaned
+      order = 0
+      parent = child20
+    [[[child20]]]
+      position = 517
+      type = VPaned
+      order = 2
+      parent = child1
+    [[[terminal28]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child26
+    [[[child26]]]
+      position = 346
+      type = HPaned
+      order = 1
+      parent = child20
+    [[[terminal55]]]
+      profile = work_view
+      type = Terminal
+      order = 1
+      parent = child53
+[plugins]
